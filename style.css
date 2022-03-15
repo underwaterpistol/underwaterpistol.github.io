@@ -17,6 +17,9 @@ h1 i {
   width: 100%;
   margin: auto;
 }
+.map__hobby{
+  color: #fe5b41;
+}
 @media(min-width: 992px) {
   #map {
     width: 900px;

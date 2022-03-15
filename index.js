@@ -8,15 +8,15 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   const locations = [
-    [{ lat: -31.610658, lng: -60.697294 }, 'Santa Fe, Argentina<br>Wants to travel around the globe!', 'Emilia', '\uf072'],
-    [{ lat: 51.551799, lng: 0.678061 }, 'Southbourne Grove, Westcliff on Sea, SS0 0AA<br>Loves cooking!', 'Amber', '\uf5a7'],
+    [{ lat: -31.610658, lng: -60.697294 }, 'Santa Fe, Argentina', 'Emilia', '\uf072', 'Wants to travel around the globe!'],
+    [{ lat: 51.551799, lng: 0.678061 }, 'Southbourne Grove, Westcliff on Sea, SS0 0AA', 'Amber', '\uf5a7', 'Loves cooking!'],
   ];
 
   // Create an info window to share between markers.
   const infoWindow = new google.maps.InfoWindow();
 
   // Create the markers
-  locations.forEach(([position, location, name, icon]) => {
+  locations.forEach(([position, location, name, icon, hobby]) => {
     const marker = new google.maps.Marker({
       position,
       map,
@@ -31,7 +31,11 @@ function initMap() {
     // Add a click listener for each marker, and set up the info window.
     marker.addListener('click', () => {
       infoWindow.close();
-      infoWindow.setContent('<strong>'+name+'</strong></i><br>'+location);
+      infoWindow.setContent(
+        '<strong>'+ name +'</strong><br>'
+        + location +
+        '<br><strong class="map__hobby">' + hobby + '</strong><br>'
+      );
       infoWindow.open(marker.getMap(), marker);
     });
     marker.setMap(map);
