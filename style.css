@@ -1,0 +1,25 @@
+body {
+  background: #fe5b41;
+}
+h1 {
+  font-family: fieldwork, sans-serif;
+  color: #ffff;
+  font-size: 6rem;
+  font-weight: 100;
+  line-height: 3rem;
+  margin: 0.5rem 0 4rem 2.3rem;
+}
+h1 i {
+  font-size: 4rem;
+}
+#map {
+  height: 800px;
+  width: 100%;
+  margin: auto;
+}
+@media(min-width: 992px) {
+  #map {
+    width: 900px;
+    margin-left: 2.3rem;
+  }
+}
