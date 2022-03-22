@@ -17,12 +17,20 @@ const people = [
   [{lat: 52.284214582242235, lng: -1.584999507370846}, 'Warwick, UK', 'Danny W.', '\uf1b0', 'Enjoys playing football, walking his dog, reading and eating out'],
   [{lat: 54.726590079483344, lng: -6.228187696299442}, 'Craigavon, UK', 'Tara', '\uf0c4', 'Likes to relax by crafting, designing and pressing tshirts'],
   [{lat: 53.485301359318456, lng: -2.2426906719967405}, 'Manchester, UK', 'Dan', '\uf0fc', 'Enjoys drinking a cold beer with friends'],
-  [{lat: 14.35282543840641, lng: 121.04372325178481}, 'La Laguna, Philippines', 'Jason', '\uf1fc', 'Likes illustration, concept art, comics, manga, anime<br>difficult video games, noise music and movies!'],
+  [{lat: 51.79998611177292, lng: -1.7927508622201622}, 'Cotswolds, UK', 'Pete', '\uf669', 'Likes playing football, basketball, skateboarding <br> and watching Star Wars marthons'],
+  [{lat: 14.35282543840641, lng: 121.04372325178481}, 'La Laguna, Philippines', 'Jason', '\uf1fc', 'Likes illustration, concept art<br> noise music and movies!'],
   [{lat: 53.96101534739672, lng: -1.0768154423501357}, 'York, UK', 'Charlie', '\uf072', 'Likes to travel, cooking and spending time with her dog!'],
   [{lat: 51.52531377787151, lng: -0.12113161420453323}, 'London, UK', 'Naomi', '\uf206', 'Likes to travel, listening to music, walking<br> hula-hooping, cycling, yoga and roller-skating'],
   [{lat: 57.045816318621114, lng: 23.993794613993806}, 'Riga, Latvia', 'Uldis', '\uf6fc', 'Likes traveling, board games and hiking!'],
   [{lat: 51.480303387387345, lng: -0.13944238219321328}, 'Nine Elms, London, UK', 'Jen', '\uf025', 'Loves art and music!'],
   [{lat: 53.485301359318456, lng: -2.2526906719967405}, 'Manchester, UK', 'Mord', '\uf518', 'Likes reading and cycling!'],
+  [{lat: 40.426894014118446, lng: -3.708383563820576}, 'Madrid, Spain', 'Marion', '\uf290', 'Loves thrift shopping and running!'],
+  [{lat: 51.2693816398622, lng: -2.5028867109905204}, 'Chilcompton, Somerset, UK', 'Natasha', '\uf7a6', 'Likes playing the guitar!'],
+  [{lat: 40.426894014118446, lng: -3.718383563820576}, 'Madrid, Spain', 'Angus', '\uf028', 'Likes making music with his guitar!'],
+  [{lat: 51.536729855039226, lng: -0.9032209221460329}, 'Henley-on-thames, UK', 'Beth', '\uf773', "Likes to swim, paint and rowboats<br>She'll take any excuse to be in or near water!"],
+  [{lat: 51.52531377787151, lng: -0.14113161420453323}, 'London, UK', 'Oriane', '\ue55a', 'Enjoys pilates and yoga!'],
+  [{lat: 51.4490979627959, lng: -0.9824869135724369}, 'Reading, UK', 'Leigh', '\uf564', 'Loves football, running, gym, EATING<br>and spending time with his loving ones!'],
+  [{lat: 51.45673561186572, lng: 0.04412819378779798}, 'South East London, UK', 'Adrian', '\uf06c', 'Likes cycling, yoga, electronic music,<br> plants/decorating, films and art galleries'],
 ];
 
 // Initialize and add the map
